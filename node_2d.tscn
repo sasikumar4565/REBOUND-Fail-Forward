@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bypd3mtsigboe"]
+
+[ext_resource type="Script" uid="uid://dqxajlhyxvtre" path="res://character_body_2d.gd" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D" unique_id=821760468]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1859995179]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D" unique_id=265986905]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="." unique_id=1229838961]
+
+[node name="PointLight2D" type="PointLight2D" parent="GPUParticles2D" unique_id=1166668669]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=795354060]
+script = ExtResource("1_wtcfe")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CharacterBody2D" unique_id=201120441]
